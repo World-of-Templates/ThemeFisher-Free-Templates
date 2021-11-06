@@ -1,0 +1,21 @@
+.single-page-header {
+	background: #1f2532;
+	padding:50px 0;
+	text-align: center;
+	color:$light;
+	position: relative;
+	margin-top: 80px;
+	@include desktop {
+		margin-top: 60px;
+	}
+	.breadcrumb {
+		background: transparent;	
+		display: inline-block;
+		li {
+			display: inline-block;
+			a {
+				color: $primary-color;
+			}
+		}
+	}
+}

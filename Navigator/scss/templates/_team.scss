@@ -1,0 +1,62 @@
+
+/*=================================================================
+  Our Team
+  ==================================================================*/
+
+.team-member {
+  background: $light;
+  margin-bottom:15px;
+  &:hover img {
+    transform: scale(1.1);
+  }
+  &:hover .mask {
+    opacity: 1;
+  }
+  .member-content {
+    padding:25px 0;
+    h3 {
+      font-size: 20px;
+      margin: 0 0 5px;
+      color:#333;
+    }
+    span {
+      font-size: 14px;
+      color:#555;
+    }
+    p {
+      color: #777;
+      margin-top: 10px;
+      padding:0 15px;
+    }
+    ul {
+      text-align: center;
+      position: relative;
+      li {
+        margin-right: 7px;
+        a {
+          i {
+              color: #f0326b;
+              background: linear-gradient(100deg, #f9643d, #fe2a77);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+          }
+          font-size: 18px;
+          padding:10px;
+          &:hover {
+            background-color: #6cb670;
+            border: 1px solid transparent;
+          }
+        }
+      }
+    }
+  }
+  .member-photo {
+    overflow: hidden;
+    position: relative;
+    img {
+      transition: all 0.6s ease 0s;
+    }
+  }
+}
+
+

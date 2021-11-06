@@ -1,0 +1,112 @@
+.navigation {
+  transition: .3s all;
+  background: #1f2532;
+
+  .navbar-nav>li {
+    &.active {
+      a {
+        color: $white;
+      }
+    }
+
+    >a {
+      color: #707d8f;
+      font-size: 15px;
+      line-height: 26px;
+      padding: 20px 15px !important;
+      transition: .2s ease-in-out 0s;
+
+      @include mobile {
+        padding: 8px 0 !important;
+      }
+
+      @include tablet {
+        padding: 8px 0 !important;
+      }
+
+      &:hover,
+      &:active,
+      &:focus {
+        background: none;
+        color: $primary-color;
+      }
+    }
+  }
+
+  .navbar-toggler {
+    color: $white;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .nav .open>a {
+    background: none;
+  }
+
+  .dropdown {
+    padding: 0;
+    &:hover {
+        .dropdown-menu {
+            visibility: visible;
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+
+    .dropdown-item {
+      padding: 8px 15px;
+      color: $white;
+      font-size: 13px;
+
+      &:hover {
+        background: transparent;
+        color: $primary-color;
+      }
+    }
+
+    .dropdown-menu {
+      border-radius: 0;
+      transform-origin: top;
+      animation-fill-mode: forwards;
+      background-color: #000;
+      display: block;
+      opacity: 0;
+      transition: .3s ease;
+      visibility: hidden;
+      transform: scaleY(0);
+      transform-origin: top;
+
+      @include desktop {
+        display: none;
+        opacity: 1;
+        visibility: visible;
+        transform: scaleY(1);
+        transform-origin: unset;
+      }
+
+      &.show {
+        visibility: visible;
+        opacity: 1;
+        transform: scaleY(1);
+
+        @include desktop {
+          display: block;
+        }
+      }
+    }
+  }
+
+}
+
+
+
+
+.navbar-brand {
+  height: auto;
+  padding: 8px 0;
+}
+
+.navbar-brand h1 {
+  margin: 0;
+}

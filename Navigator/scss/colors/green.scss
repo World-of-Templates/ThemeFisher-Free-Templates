@@ -1,0 +1,284 @@
+$primary-green: #5BB12F;
+
+
+
+@-webkit-keyframes preloader {
+  25% {
+    height: 30px;
+    -webkit-transform: translateY(15px);
+    transform: translateY(15px);
+    background: $primary-green;
+  }
+}
+
+@keyframes preloader {
+  25% {
+    height: 30px;
+    -webkit-transform: translateY(15px);
+    transform: translateY(15px);
+    background: $primary-green;
+  }
+}
+
+
+.btn-main {
+  background: $primary-green;
+  border: 1px solid $primary-green;
+}
+
+// Common Styles
+.title {
+  .border {
+    background-color: $primary-green;
+  }
+}
+.portfolio-filter button {
+  background: $primary-green;
+}
+
+
+.navigation {
+  .navbar-nav > li {
+    &.active {
+      a {
+        color:$primary-green;
+      }
+    }
+     > a {
+      &:hover, &:active, &:focus{
+        color: $primary-green;
+      }
+    }
+  }
+}
+
+
+// Testimonial Colors
+.testimonial {
+  background: $primary-green;
+}
+
+
+// Team Colors
+.team {
+  .member-photo {
+    .mask {
+      background: rgba( $primary-green, .7 );
+    }
+  }
+}
+
+// Skills colors
+
+/*=================================================================
+  Our skills
+==================================================================*/
+
+.team-skills {
+  .progress-block {
+    .progress {
+      .progress-bar {
+        background:$primary-green;
+      }
+    }
+  }
+}
+
+
+
+
+
+/*=================================================================
+  Step section
+==================================================================*/
+.development-steps {
+  .step-2 {
+    background-color: $primary-green;
+  }
+  .step-3 {
+    background:darken( $primary-green, 10% );
+  }
+  .step-4 {
+    background:darken( $primary-green, 15% );
+  }
+}
+
+
+
+
+// Service Colors
+
+.services {
+  .service-block {
+    &.color-bg {
+      background:$primary-green;
+    }
+    i {
+      color: $primary-green;
+    }
+  }
+}
+
+.service-2 {
+  .service-item {
+    &:hover i {
+      color:$primary-green;
+    }
+    i {
+      background: $primary-green none repeat scroll 0 0;
+    }
+  }
+}
+
+
+// Pricing Colors
+.pricing-table {
+  .price-title {
+    .value {
+      color: $primary-green;
+    }
+  }
+}
+
+
+
+// Portfolio Colors
+
+.portfolio-filter {
+  ul {
+    li {
+      &.active {
+        background: $primary-green;
+      }
+    }
+  }
+}
+
+.portfolio-block {
+  .caption {
+    .search-icon {
+      background: $primary-green;
+    }
+  }
+}
+
+// Counter Colors
+
+.counters-item {
+  i {
+    color:$primary-green;
+  }
+}
+
+
+
+// Contact Form
+.contact-form {
+  input:hover, 
+  textarea:hover,
+  #contact-submit:hover {
+    border-color: $primary-green;
+  }
+  #contact-submit {
+    background: $primary-green;
+  }
+}
+.social-icon {
+  ul {
+    li {
+      a {
+        &:hover {
+          background: $primary-green;
+          border:1px solid $primary-green;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+// About Us
+.about {
+  .btn-about {
+    background: $primary-green;
+  }
+  .feature-list {
+    li {
+      i {
+        color: $primary-green;
+      }
+    }
+  }
+}
+
+
+
+
+
+// Footer Colors
+.top-footer {
+  li a {
+    &:hover {
+      color: $primary-green;
+    }
+  }
+}
+
+.footer-bottom {
+  a {
+    color: $primary-green;
+  }
+}
+
+
+
+// Single Blog Post
+
+.post-meta {
+  a {
+    color: $primary-green;
+  }
+}
+
+
+.next-prev {
+  a {
+    &:hover {
+      color: $primary-green;
+    }
+  }
+}
+
+.social-profile {
+  ul {
+   li {
+      a {
+        i {
+          &:hover {
+            color: $primary-green;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+.comment-reply-form {
+  input,textarea {
+    &:focus {
+      border:1px solid $primary-green;
+    }
+  }
+}
+
+                            
+
+

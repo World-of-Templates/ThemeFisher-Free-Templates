@@ -1,0 +1,117 @@
+
+/*=================================================================
+  Contact
+  ==================================================================*/
+
+.contact-form {
+  margin-bottom: 40px;
+  @include tablet {
+    margin-top:20px;
+  }
+  .form-control {
+    background-color: transparent;
+    border: 1px solid #dedede;
+    box-shadow: none;
+    height: 45px!important;
+    color: #0c0c0c;
+    height: 38px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    border-radius: 3px;
+  }
+  input:hover, 
+  textarea:hover,
+  #contact-submit:hover {
+    border-color: $primary-color;
+  }
+  #contact-submit {
+    border:none;
+    padding: 15px 0;
+    width: 100%;
+    margin: 0;
+    background: $primary-color;
+    color:$light;
+    border-radius: 0;
+    cursor: pointer;
+  }
+  textarea.form-control {
+    padding: 10px;
+    height: 120px!important;
+    outline: none;
+  }
+}
+
+.contact-details {
+  .contact-short-info {
+    margin-top: 15px;
+    li {
+      margin-bottom: 6px;
+    }
+  }
+}
+
+.social-icon  {
+  li {
+    display: inline-block;
+    margin-right: 10px;
+    a {
+      display: block;
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      color:$primary-color;
+      i {
+        display: inline-block;
+        font-size: 20px;
+        line-height: 50px;
+        margin: 0;
+      }
+    }
+  }
+}
+
+
+.error {
+  padding: 10px;
+  color: #D8000C;
+  border-radius: 2px;
+  font-size: 14px;
+  background-color: #FFBABA;
+}
+
+.success {
+  background-color: #6cb670;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+}
+
+#error, #success{
+  display: none;
+  margin-bottom: 10px;
+}
+
+.map{
+  position: relative;
+  #map{
+    height:400px;
+    color: white;
+  }
+}
+ 
+
+.contact-meta-block {
+  margin-top:30px;
+  padding:40px 0;
+  min-height: 250px;
+  text-align: center;
+  background: $white;
+  border-radius: 3px;
+  box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.05);
+  >i {
+    display:block;
+    font-size:50px;
+    margin-bottom:20px;
+  }
+}

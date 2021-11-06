@@ -1,0 +1,92 @@
+
+/*=================================================================
+  Portfolio section
+==================================================================*/
+.portfolio-filter {
+  margin-bottom: 40px;
+  text-align: center;
+  button {
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    margin:0 10px;
+    padding:8px 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border:none;
+    color:#777;
+    outline: none;
+    background: none;
+    &:hover {
+      border-bottom:2px solid $primary-color;
+      color:$black;
+    }
+    &.active{
+      border-bottom:2px solid $primary-color;
+      color:$black;
+    }
+  }
+}
+
+.portfolio-items-wrapper {
+  li {
+    width: 32.33%;
+  }
+}
+
+.portfolio-block {
+  position: relative;
+  transition:.3s all;
+  overflow: hidden;
+  &:before {
+    content: '';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom:0;
+    background: rgba(240, 50, 107, 0.90);
+    transition: .3s all;
+  }
+  &:hover:before {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+  }
+  &:hover .caption h4 {
+    transform: translate3d(0,0,0);
+  }
+  &:hover .caption {
+    opacity: 1;
+  }
+  &:hover .caption .search-icon {
+    opacity: 1;
+  }
+  .caption {
+    position: absolute;
+    bottom:10%;
+    left:10%;
+    opacity: 0;
+    z-index: 9;
+    transition: all 0.3s ease-in-out;
+    h4 {
+      font-size: 20px;  
+      font-weight: 700;
+      a {
+        color: $light;
+      }
+    }
+    .search-icon {
+      background: $primary-color;
+      color:$light;
+      display: inline-block;
+      padding: 4px 13px;
+      font-size: 25px;
+      border-radius: 30px;
+      opacity: 0;
+    }
+  }
+}
+
+

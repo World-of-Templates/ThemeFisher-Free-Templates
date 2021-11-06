@@ -1,0 +1,285 @@
+$primary-yellow: #FED136;
+
+
+
+@-webkit-keyframes preloader {
+  25% {
+    height: 30px;
+    -webkit-transform: translateY(15px);
+    transform: translateY(15px);
+    background: $primary-yellow;
+  }
+}
+
+@keyframes preloader {
+  25% {
+    height: 30px;
+    -webkit-transform: translateY(15px);
+    transform: translateY(15px);
+    background: $primary-yellow;
+  }
+}
+
+
+.btn-main {
+  background: $primary-yellow;
+  border: 1px solid $primary-yellow;
+}
+
+// Common Styles
+.title {
+  .border {
+    background-color: $primary-yellow;
+  }
+}
+.portfolio-filter button {
+  background: $primary-yellow;
+}
+
+
+.navigation {
+  .navbar-nav > li {
+    &.active {
+      a {
+        color:$primary-yellow;
+      }
+    }
+     > a {
+      &:hover, &:active, &:focus{
+        color: $primary-yellow;
+      }
+    }
+  }
+}
+
+
+// Testimonial Colors
+.testimonial {
+  background: $primary-yellow;
+}
+
+
+// Team Colors
+.team {
+  .member-photo {
+    .mask {
+      background: rgba( $primary-yellow, .7 );
+    }
+  }
+}
+
+// Skills colors
+
+/*=================================================================
+  Our skills
+==================================================================*/
+
+.team-skills {
+  .progress-block {
+    .progress {
+      .progress-bar {
+        background:$primary-yellow;
+      }
+    }
+  }
+}
+
+
+
+
+
+/*=================================================================
+  Step section
+==================================================================*/
+.development-steps {
+  .step-2 {
+    background-color: $primary-yellow;
+  }
+  .step-3 {
+    background:darken( $primary-yellow, 10% );
+  }
+  .step-4 {
+    background:darken( $primary-yellow, 15% );
+  }
+}
+
+
+
+
+// Service Colors
+
+.services {
+  .service-block {
+    &.color-bg {
+      background:$primary-yellow;
+    }
+    i {
+      color: $primary-yellow;
+    }
+  }
+}
+
+.service-2 {
+  .service-item {
+    &:hover i {
+      color:$primary-yellow;
+    }
+    i {
+      background: $primary-yellow none repeat scroll 0 0;
+    }
+  }
+}
+
+
+// Pricing Colors
+.pricing-table {
+  .price-title {
+    .value {
+      color: $primary-yellow;
+    }
+  }
+}
+
+
+
+// Portfolio Colors
+
+.portfolio-filter {
+  ul {
+    li {
+      &.active {
+        background: $primary-yellow;
+      }
+    }
+  }
+}
+
+.portfolio-block {
+  .caption {
+    .search-icon {
+      background: $primary-yellow;
+    }
+  }
+}
+
+// Counter Colors
+
+.counters-item {
+  i {
+    color:$primary-yellow;
+  }
+}
+
+
+
+// Contact Form
+.contact-form {
+  input:hover, 
+  textarea:hover,
+  #contact-submit:hover {
+    border-color: $primary-yellow;
+  }
+  #contact-submit {
+    background: $primary-yellow;
+  }
+}
+.social-icon {
+  ul {
+    li {
+      a {
+        &:hover {
+          background: $primary-yellow;
+          border:1px solid $primary-yellow;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+// About Us
+.about {
+  .btn-about {
+    background: $primary-yellow;
+  }
+  .feature-list {
+    li {
+      i {
+        color: $primary-yellow;
+      }
+    }
+  }
+}
+
+
+
+
+
+// Footer Colors
+.top-footer {
+  li a {
+    &:hover {
+      color: $primary-yellow;
+    }
+  }
+}
+
+.footer-bottom {
+  a {
+    color: $primary-yellow;
+  }
+}
+
+
+
+// Single Blog Post
+
+.post-meta {
+  a {
+    color: $primary-yellow;
+  }
+}
+
+
+.next-prev {
+  a {
+    &:hover {
+      color: $primary-yellow;
+    }
+  }
+}
+
+.social-profile {
+  ul {
+   li {
+      a {
+        i {
+          &:hover {
+            color: $primary-yellow;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+.comment-reply-form {
+  input,textarea {
+    &:focus {
+      border:1px solid $primary-yellow;
+    }
+  }
+}
+
+      
+                            
+
+

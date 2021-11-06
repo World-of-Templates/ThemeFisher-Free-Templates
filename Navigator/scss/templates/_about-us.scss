@@ -1,0 +1,59 @@
+/*=================================================================
+  About us section
+==================================================================*/
+
+.about {
+  background: $light;
+  h2 {
+    font-size:40px;
+    font-weight: bold;
+    margin-top:0;
+    @include desktop {
+      font-size:25px;
+    }
+  }
+  h4 {
+    font-size:14px;
+    color:$primary-color;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  p {
+    line-height: 1.6;
+    margin-top:20px;
+    
+  }
+  .content {
+    padding:50px 0;
+    @include desktop {
+      padding:5px 0;
+    }
+
+  }
+}
+
+
+/*=================================================================
+  About us 2 section
+==================================================================*/
+.about-2 {
+  background: #F7F7F7;
+  h2 {
+    position:relative;
+    &:before {
+      position: absolute;
+      left: -15%;
+      top: 18px;
+      content:'';
+      display: inline-block;
+      width: 12%;
+      height: 3px;
+      background-color: #ffa535;
+      background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+      background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+      @include tablet {
+        display:none;
+      }
+    }
+  }
+}

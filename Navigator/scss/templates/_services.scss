@@ -1,0 +1,100 @@
+/*=================================================================
+  Services section
+==================================================================*/
+
+.services {
+  .service-block {
+    padding: 30px 20px;
+    @include mobile {
+      padding:15px;
+    }
+    .service-icon {
+      margin-bottom: 15px;
+    }
+    i {
+      font-size: 40px;
+      color: $primary-color;
+      background: linear-gradient(100deg, #f9643d, #fe2a77);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    h3 {
+      color:#333;
+      font-size: 18px;
+    }
+    p {
+      color: #777;
+    }
+  }
+}
+
+
+/*=================================================================
+  Services section 2
+==================================================================*/
+
+.service-2 {
+  .p-0 {
+    @include mobile {
+      padding:0 15px!important;
+    }
+    @include tablet {
+      padding:0 15px!important;
+    }
+    @include mobile-xs {
+      padding:0 15px!important;
+    }
+  }
+  .service-item {
+    background:$white;
+    border: 1px solid #eee;
+    padding: 50px 20px;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    transition: all 0.3s ease 0s;
+    .count {
+      font-size:80px;
+      position: absolute;
+      top:0;
+      left:20px;
+      color:#f3f1f1;
+      font-weight: 700;
+    }
+    i {
+      font-size: 30px;
+      display: inline-block;
+      @extend .gradient;
+      border-radius: 30px;
+      box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
+      color: #fff;
+      height: 55px;
+      line-height: 55px;
+      margin-bottom: 20px;
+      width: 55px;
+      transition: all 0.3s ease 0s;
+    }
+  }
+}
+
+
+.service-list {
+  .block  {
+    background: $primary-color;
+    color:$white;
+    padding:30px;
+    i {
+      font-size:30px;
+    }
+    h3 {
+      font-size:22px;
+      margin:10px 0;
+    }
+    ul {
+      li {
+        margin-bottom:6px;
+        color:#f9f9f9;
+      }
+    }
+    
+  }
+}

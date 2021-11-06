@@ -1,0 +1,9 @@
+.page-404 {
+	height: 100vh;
+	h1 {
+		font-size:200px;
+		@include mobile {
+			font-size: 100px;
+		}
+	}
+}

@@ -1,0 +1,41 @@
+/*=================================================================
+  Testimonial section
+==================================================================*/
+
+.testimonial {
+  background: $primary-color;
+  position: relative;
+  .item {
+    i {
+      font-size: 40px;
+      color: $light;
+      margin-bottom: 30px;
+      display: inline-block;
+    }
+    .client-details {
+      padding-bottom: 30px;
+      p {
+        font-size: 17px;
+        color: $light;
+        font-weight: 200;
+        padding: 0 10%;
+      }
+    }
+    .client-meta {
+      margin-top:8px;
+      color:$white;
+      h4 {
+        margin-bottom:4px;
+      }
+      span {
+        font-size:12px;
+      }
+    }
+    .client-thumb img {
+      display: inline-block;
+      border-radius: 100%;
+      width: 90px;
+      height:auto;
+    }
+  }
+}

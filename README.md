@@ -45,3 +45,18 @@ Vex | Bingo
 --- | ---
 [![Vex](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Vex.png)](https://) | [![Bingo](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Bingo.png)](https://)
 Product Landing Page | Business Template (v4)
+
+Phantom | Box
+--- | ---
+[![Phantom](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Phantom.png)](https://) | [![Box](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Box.png)](https://)
+Creative Portfolio Template | Minimal Portfolio Template
+
+Themelight | Airspace
+--- | ---
+[![Themelight](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Themelight.png)](https://) | [![Airspace](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Airspace.png)](https://)
+Onepage Business Template | Business Template
+
+Navigator | Sulfur
+--- | ---
+[![Navigator](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Navigator.png)](https://) | [![Sulfur](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Sulfur.png)](https://)
+Onepage Business Template | Business Website Template (v3)
