@@ -15,3 +15,8 @@ Promodise | Rappo
 --- | ---
 [![Promodise](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Promodise.png)](https://) | [![Rappo](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Rappo.png)](https://)
 Startup Website Template | Corporate Website Template
+
+Educenter | Eventre
+--- | ---
+[![Educenter](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Educenter.png)](https://) | [![Eventre](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Eventre.png)](https://)
+Education Template | Event/Conference Template
