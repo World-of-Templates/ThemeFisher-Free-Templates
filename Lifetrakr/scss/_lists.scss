@@ -1,0 +1,68 @@
+.app-badge{
+	ul{
+		li.list-inline-item{
+			&:not(:last-child){
+				margin-right: 25px;
+				@include tablet {
+					margin-bottom: 25px;
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}
+
+ul.feature-list{
+	margin: 0;
+	padding: 0;
+	li{
+		list-style: none;
+		margin: 15px 0;
+		font-size: 16px;
+	}
+}
+
+ul.post-tag{
+	margin-bottom: 20px;
+	li{
+		font-size: 14px;
+		img{
+			width: 25px;
+			height: 25px;
+	        border-radius: 100%;
+			margin-right: 5px;
+			
+		}
+		a{
+			font-size: 14px;
+		}
+		&:last-child{
+			margin-left: 25px;
+		}
+	}
+}
+// Social Icons
+ul.social-icons{
+	li{
+		a{
+			display: block;
+			height: 35px;
+			width: 35px;
+			background: $gray;
+			text-align: center;
+			border-radius: 100%;
+			i{
+				font-size: 16px;
+				line-height: 35px;
+			}
+		}
+	}
+}
+// Rating 
+ul.rating{
+	li{
+		color: #FFC000;
+		font-size: 26px;
+	}
+	margin-bottom: 0;
+}

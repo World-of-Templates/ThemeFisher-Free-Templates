@@ -1,0 +1,28 @@
+.testimonial-slider{
+	.client-img{
+		background-size: cover;
+		background-position: 15px 0;
+		background-repeat: no-repeat;
+		min-height: 250px;
+	}
+	.slick-prev{
+		left: -100px;
+	}
+	.slick-next{
+		right: -100px;
+	}
+	.slick-prev, .slick-next{
+		background: $light;
+		width: 65px;
+		height: 55px;
+		border-radius: 4px;
+		&:hover{
+			&:before{
+				color: $primary-color;
+			}
+		}
+		&:before {
+			color: $text-color;
+		}		
+	}
+}

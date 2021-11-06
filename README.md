@@ -60,3 +60,18 @@ Navigator | Sulfur
 --- | ---
 [![Navigator](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Navigator.png)](https://) | [![Sulfur](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Sulfur.png)](https://)
 Onepage Business Template | Business Website Template (v3)
+
+Timer | Restaurant
+--- | ---
+[![Timer](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Timer.png)](https://) | [![Restaurant](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Restaurant.png)](https://)
+Multipage Agency Template (v3) | Restaurant Website Template (v4)
+
+Brandi | Meghna
+--- | ---
+[![Brandi](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Brandi.png)](https://) | [![Meghna](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Meghna.png)](https://)
+Business Template Website (v3) | App/Sass Landing Website (v4)
+
+Lifetrakr | Small Apps
+--- | ---
+[![Lifetrakr](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Lifetrakr.png)](https://) | [![SmallApps](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/SmallApps.png)](https://)
+App Landing Page Template | App/Sass Landing Page Template

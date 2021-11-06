@@ -1,0 +1,631 @@
+// Banner Styles
+.banner {
+	padding: 150px 0 100px;
+	min-height: 100vh;
+
+	.content-block {
+		&.ml-50 {
+			margin-left: 50px;
+
+			@include tablet {
+				margin-left: 30px;
+			}
+
+			@include mobile {
+				margin-left: 0;
+			}
+		}
+
+		h1,
+		h5 {
+			color: $light;
+		}
+
+		h1 {
+			line-height: 70px;
+			font-weight: 600;
+			text-transform: uppercase;
+			letter-spacing: .06em;
+			margin-bottom: 30px;
+		}
+
+		h5 {
+			margin-bottom: 75px;
+		}
+
+		@include mobile {
+			text-align: center;
+		}
+	}
+
+	.image-block {
+		@include mobile {
+			margin-top: 30px;
+			text-align: center;
+		}
+	}
+}
+
+.phone-thumb {
+	max-height: 550px;
+}
+
+.phone-thumb-md {
+	max-height: 600px;
+}
+
+.about {
+	.image-block {
+		@include tablet {
+			text-align: center;
+			margin-bottom: 30px;
+		}
+	}
+
+	.about-block {
+		.about-item {
+			background: $light;
+			@extend .shadow;
+			display: flex;
+			padding: 30px;
+
+			&.active {
+				background: $primary-color;
+
+				.icon {
+					i {
+						color: $light;
+					}
+				}
+
+				.content {
+
+					h5,
+					p {
+						color: $light;
+					}
+				}
+			}
+
+			.icon {
+				width: 50px;
+
+				i {
+					font-size: 48px;
+					color: $primary-color;
+
+				}
+			}
+
+			.content {
+				margin-left: 30px;
+
+				h5 {
+					text-transform: uppercase;
+					font-weight: 600;
+					margin-bottom: 15px;
+				}
+			}
+
+			&:not(:last-child) {
+				margin-bottom: 30px;
+			}
+		}
+	}
+}
+
+.feature {
+	.feature-item {
+		.icon {
+			i {
+				font-size: 48px;
+				color: $primary-color;
+			}
+
+			margin-bottom: 15px;
+		}
+
+		.content {
+			h5 {
+				text-transform: uppercase;
+				font-weight: 600;
+				margin-bottom: 15px;
+			}
+		}
+
+		&:not(:last-child) {
+			margin-bottom: 60px;
+		}
+
+		@include tablet {
+			margin-bottom: 60px;
+		}
+	}
+
+	.app-screen {
+		margin: 20px 0;
+
+		img {
+			max-height: 400px;
+		}
+	}
+}
+
+.promo-video {
+	position: relative;
+
+	.section-title {
+
+		h2,
+		p {
+			color: $light;
+		}
+	}
+}
+
+.screenshots {
+	overflow: hidden;
+
+	.screenshot-slider {
+		.image {
+			img {
+				@extend .shadow;
+			}
+		}
+
+		.slick-dots {
+			bottom: -60px;
+
+			li {
+				margin: 0 10px;
+
+				button {
+					border: 4px solid $primary-color;
+					border-radius: 100%;
+
+					&:before {
+						content: none;
+					}
+				}
+
+				&.slick-active {
+					button {
+						background: $primary-color;
+					}
+				}
+			}
+		}
+	}
+}
+
+.pricing-table {
+	background: $light;
+	box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+	padding: 50px 0;
+	margin-bottom: 80px;
+
+	&.featured {
+		.price {
+			p {
+				color: $accent-color;
+			}
+		}
+
+		.action-button {
+			.btn-main-rounded {
+				background: $accent-color;
+			}
+		}
+	}
+
+	.title {
+		h5 {
+			text-transform: uppercase;
+			font-weight: 600;
+		}
+
+		margin-bottom: 30px;
+	}
+
+	.price {
+		p {
+			font-size: 36px;
+			font-weight: bold;
+			color: $primary-color;
+
+			span {
+				font-size: 16px;
+				font-weight: 400;
+			}
+		}
+
+		margin-bottom: 30px;
+	}
+
+	.action-button {
+		margin-top: 30px;
+	}
+}
+
+.cta-download {
+	position: relative;
+	padding: 80px 0;
+
+	.image-block {
+		position: absolute;
+		top: -150px;
+		left: 100px;
+
+		@include desktop {
+			display: none;
+		}
+	}
+
+	.content-block {
+
+		h2,
+		p {
+			color: $light;
+		}
+
+		h2 {
+			font-weight: 500;
+			font-family: $secondary-font;
+			margin-bottom: 30px;
+		}
+
+		p {
+			line-height: 30px;
+			margin-bottom: 40px;
+		}
+	}
+}
+
+.cta-subscribe {
+	h2 {
+		font-weight: 500;
+		font-family: $secondary-font;
+	}
+}
+
+.counter {
+	padding-top: 180px;
+
+	.counter-item {
+		text-align: center;
+		background: $primary-color;
+		padding: 40px 0;
+		border-radius: 8px;
+		@extend .shadow;
+
+		@include tablet {
+			margin-bottom: 30px;
+		}
+
+		h3,
+		p {
+			color: $light;
+			text-transform: uppercase;
+		}
+
+		h3 {
+			margin-bottom: 20px;
+			font-weight: 600;
+		}
+	}
+}
+
+.team-member {
+	background: $light;
+	padding: 30px;
+	@extend .shadow;
+
+	@include tablet {
+		margin-bottom: 40px;
+	}
+
+	.image {
+		img {
+			border-radius: 100%;
+		}
+
+		margin-bottom: 30px;
+	}
+
+	.name {
+		h5 {
+			font-weight: 600;
+			text-transform: uppercase;
+		}
+	}
+
+	.position {
+		margin-bottom: 20px;
+	}
+
+	.skill-bar {
+		display: flex;
+
+		.progress {
+			width: 80%;
+			height: 7px;
+			align-self: center;
+
+			.progress-bar {
+				width: 0;
+				background: $primary-color;
+			}
+		}
+
+		span {
+			font-size: 12px;
+			margin-left: 15px;
+		}
+
+		margin-bottom: 20px;
+	}
+}
+
+.slider {
+	padding: 180px 0 300px;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+
+	.block {
+		position: relative;
+
+		h1,
+		h3 {
+			color: $light;
+		}
+
+		.download {
+			margin-top: 20px;
+		}
+
+		.image-content {
+			text-align: center;
+
+			img {
+				margin-top: 100px;
+				margin-bottom: -200px;
+			}
+		}
+	}
+
+	&:before {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		border-bottom: 290px solid #fff;
+		border-left: 2000px solid transparent;
+		width: 0;
+	}
+}
+
+.services {
+	.service-block {
+		background: $light;
+		padding: 30px 40px;
+		margin-bottom: 30px;
+
+		&:last-child {
+			margin-bottom: 0;
+
+			@include mobile {
+				margin-bottom: 30px;
+			}
+		}
+
+		border-radius: 5px;
+
+		h3 {
+			line-height: 30px;
+			text-transform: capitalize;
+			font-size: 16px;
+			font-weight: 500;
+		}
+
+		i {
+			font-size: 30px;
+			color: $primary-color;
+			margin-bottom: 15px;
+			display: inline-block;
+
+		}
+
+		p {
+			margin-bottom: 0;
+			font-size: 14px;
+			line-height: 20px;
+		}
+	}
+
+	.app-preview {
+		display: flex;
+		justify-content: center !important;
+
+		img {
+			height: 500px;
+			width: auto;
+		}
+	}
+
+	@include tablet {
+		.col-lg-4.m-auto {
+			display: none;
+		}
+	}
+}
+
+.service {
+	@extend .hide-overflow;
+
+	.service-thumb {
+		@include tablet {
+			width: 80%;
+			margin: 0 auto;
+		}
+	}
+
+	.service-box {
+		padding: 20px;
+		background: $light;
+		border-radius: 4px;
+		@extend .shadow;
+
+		@include tablet {
+			width: 80%;
+			margin: 0 auto;
+		}
+
+		.service-item {
+			text-align: center;
+			padding: 10px;
+			margin: 20px 0;
+
+			i {
+				font-size: 20px;
+				color: $primary-color;
+				display: inline-block;
+				margin-bottom: 10px;
+			}
+
+			p {
+				font-size: 14px;
+			}
+		}
+	}
+}
+
+.feature {
+	.feature-content {
+
+		h2,
+		p {
+			margin-bottom: 25px;
+
+			@include tablet {
+				text-align: center;
+			}
+		}
+	}
+
+	.testimonial {
+		@include tablet {
+			text-align: center;
+		}
+
+		p {
+			font-family: $secondary-font;
+			margin-bottom: 10px;
+			font-style: italic;
+			color: #242424;
+		}
+
+		ul.meta {
+			li {
+				font-size: 12px;
+				margin-right: 10px;
+
+				img {
+					height: 40px;
+					width: 40px;
+					border-radius: 100%;
+				}
+			}
+		}
+	}
+}
+
+// App Features
+.app-features {
+	.app-feature {
+		@include mobile {
+			margin-bottom: 30px;
+		}
+	}
+
+	.app-explore {
+		display: flex;
+		justify-content: center !important;
+		margin-bottom: 40px;
+	}
+}
+
+.banner-full {
+	.image {
+		display: flex;
+		justify-content: center;
+
+		img {
+			height: 625px;
+		}
+
+		@include tablet {
+			margin-bottom: 30px;
+		}
+	}
+
+	.block {
+		@include tablet {
+			text-align: center;
+		}
+
+		.logo {
+			margin-bottom: 40px;
+		}
+
+		h1 {
+			margin-bottom: 40px;
+		}
+
+		p {
+			font-size: 20px;
+			margin-bottom: 50px;
+		}
+
+		.app {
+			margin-bottom: 20px;
+		}
+	}
+}
+
+.video-promo {
+	padding: 150px 0;
+
+	.content-block {
+		width: 60%;
+		margin: 0 auto;
+		text-align: center;
+
+		h2 {
+			font-size: 30px;
+			color: $light;
+		}
+
+		p {
+			margin-bottom: 30px;
+		}
+
+		a {
+			i.video {
+				height: 125px;
+				width: 125px;
+				background: $primary-color;
+				display: inline-block;
+				font-size: 40px;
+				color: $light;
+				text-align: center;
+				line-height: 125px;
+				border-radius: 100%;
+			}
+
+			&:focus {
+				outline: 0;
+			}
+		}
+	}
+}

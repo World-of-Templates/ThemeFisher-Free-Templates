@@ -1,0 +1,37 @@
+.main-nav{
+	background: $primary-color;
+	box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+	@extend .transition;
+	.navbar-brand{
+		padding: 0;
+		@extend .transition;
+	}
+	.navbar-nav{
+		.nav-item{
+			position: relative;
+			.nav-link{
+				position: relative;
+				text-align: center;
+				font-size: 13px;
+				text-transform: uppercase;
+				color: $light;
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+		}
+	}
+}
+
+// bootstrap override
+.navbar-toggler:focus, .navbar-toggler:hover{
+	outline: none;
+}
+
+.large{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.small{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
