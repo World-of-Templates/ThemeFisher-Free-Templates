@@ -1,0 +1,44 @@
+.footer{
+ padding-bottom: 10px;
+
+  .copyright{
+    a{
+      font-weight: 600;
+    }
+  }
+}
+
+
+.lh-35{
+  line-height: 35px;
+}
+
+
+.logo{
+  color: $black;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+  span{
+    color: $primary-color;
+  }
+}
+
+.sub-form{
+  position: relative;
+  .form-control{
+    border: 1px solid rgba(0,0,0,0.06);
+    background: $secondary-color;
+  }
+
+}
+
+.footer-btm{
+  border-top: 1px solid rgba(0,0,0,0.06);
+}
+
+.footer-socials{
+  li a{
+    margin-left: 15px;
+  }
+}

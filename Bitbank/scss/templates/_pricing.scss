@@ -1,0 +1,99 @@
+/*=================================================================
+  Pricing section
+==================================================================*/
+
+.pricing-table {
+    .pricing-tab {
+        text-align: center;
+        margin-bottom: 25px;
+        border:1px solid $primary-color;
+        display: inline-block;
+        padding:2px;
+        margin-bottom:50px;
+        li {
+            display: inline-block;
+            a {
+                padding:10px 30px;
+                color:#555;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+            .active {
+                background: $primary-color;
+                border-radius: 0;
+            }
+        }
+    }
+  .pricing-item {
+    margin-bottom:15px;
+    border-radius: 3px;
+    padding:0 0px 20px;
+    text-align: center;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.09);
+    a.btn-main {
+      text-transform: uppercase;
+      margin-top: 20px;
+    }
+    h3 {
+        color:$light;
+        font-size:16px;
+        padding:15px;
+        background: $primary-color;
+        font-weight: bold;
+        font-family: $secondary-font;
+    }
+    .price {
+        font-size:50px;
+        font-weight: bold;
+        color:#000;
+        margin-bottom:20px;
+        span {
+            display: inline-block;
+        }
+        .sup {
+            top: -20px;
+            font-weight: 300;
+            font-size:20px;
+            position: relative;
+        }
+    }
+    .progress {
+        margin-bottom:25px;
+        height: 3px;
+        .progress-bar {
+            background: $primary-color;
+        }
+        
+    }
+    .btn-main {
+        border-radius: 50px;
+    }
+    .pricing-body {
+        padding:30px;
+    }
+  }
+}
+
+
+.custom-pricing {
+    margin-bottom: 30px;
+    margin-top:50px;
+    p {
+        margin-bottom: 5px;
+    }
+    a {
+        color:$primary-color;
+    }
+}
+
+.custom-pricing-form {
+    h3 {
+        margin-bottom: 20px;
+    }
+    input , button {
+        height: 50px;
+        border-radius: 0;
+    }
+}
+
+

@@ -1,0 +1,135 @@
+/*=================================================================
+  HERO AREA
+==================================================================*/
+.hero-area {
+  padding: 150px 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/slider/slider-bg-2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+
+  @include mobile {
+    padding: 80px 0;
+  }
+
+  &:before {
+    content: '';
+    background: rgba(49, 187, 158, 0.84);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+
+  .block {
+    color: $light;
+    padding-left: 30px;
+
+    @include mobile {
+      padding: 0;
+    }
+
+    h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: $light;
+      margin-bottom: 20px
+    }
+
+    .list-inline {
+      margin-top: 50px;
+    }
+
+    .btn-main {
+      margin-right: 8px;
+    }
+  }
+}
+
+.video-player {
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  .play-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+
+    &:hover i {
+      transform: scale(1.1);
+    }
+
+    i {
+      margin-left: 3px;
+      height: 80px;
+      width: 80px;
+      border-radius: 50px;
+      transition: -webkit-transform 300ms ease;
+      transition: transform 300ms ease;
+      transition: transform 300ms ease, -webkit-transform 300ms ease;
+      background: $white;
+      color: $primary-color;
+      line-height: 80px;
+      font-size: 30px;
+      margin-left: 5px;
+      cursor: pointer;
+    }
+  }
+}
+
+.hero-area-video {
+  height: 100vh;
+  position: inherit !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .block {
+    color: $light;
+    text-align: center;
+
+    h1 {
+      font-size: 60px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: $light;
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 3px;
+      margin-bottom: 20px
+    }
+
+    .btn-main {
+      margin-top: 20px;
+    }
+
+  }
+}
+
+.dark-bg {
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}

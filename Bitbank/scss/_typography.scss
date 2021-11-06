@@ -1,0 +1,19 @@
+/*=================================================================
+  TYPOGRAPHY
+==================================================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:400,500,700,900');
+body {
+  line-height: 1.4;
+  font-family: $secondary-font;
+  -webkit-font-smoothing: antialiased;
+}
+p {
+    font-family: $secondary-font;
+  color: #9a9a9a;
+  font-size:16px;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: $primary-font;
+	font-weight: 600;
+}

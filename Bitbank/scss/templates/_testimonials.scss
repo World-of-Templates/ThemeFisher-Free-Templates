@@ -1,0 +1,48 @@
+/*=================================================================
+  Testimonial section
+==================================================================*/
+
+.testimonial {
+  background: $primary-color;
+  position: relative;
+  .item {
+    .block {
+        background: $light;
+        margin:10px;
+        padding:25px;
+        border-radius: 4px;
+    }
+    i {
+      font-size: 40px;
+      color: $primary-color;
+      margin-bottom: 30px;
+      display: inline-block;
+    }
+    .client-details {
+      p {
+        font-size: 16px;
+        font-weight: 200;
+      }
+    }
+    .media-body {
+        // margin-top:20px;
+    }
+    .client-meta {
+      margin-top:8px;
+      h4 {
+        margin-bottom:4px;
+        font-size:16px;
+      }
+      p {
+        font-size:12px;
+      }
+    }
+    .client-thumb  {
+      display: inline-block;
+      border-radius: 100%;
+      width: 50px;
+      height:auto;
+      border-radius:50px;
+    }
+  }
+}

@@ -22,5 +22,11 @@ Educenter | Eventre
 Education Template | Event/Conference Template
 
 Focus | Medic
+--- | ---
 [![Focus](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Focus.png)](https://) | [![Medic](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Medic.png)](https://)
 Bootstrap Admin Template | Bootstrap Medical Template
+
+Bitbank | Megakit
+--- | ---
+[![Bitbank](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Bitbank.png)](https://) | [![Megakit](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Megakit.png)](https://)
+Bitcoin Cryptocurrency Template | Multipurpose Bootstrap Template

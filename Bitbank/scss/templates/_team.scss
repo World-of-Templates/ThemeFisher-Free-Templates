@@ -1,0 +1,37 @@
+
+/*=================================================================
+  Our Team
+  ==================================================================*/
+
+.team-member {
+  background: $light;
+  margin-bottom:15px;
+  margin-bottom:30px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.07) ;
+  .member-content {
+    padding:25px 0;
+    h3 {
+      font-size: 20px;
+      margin: 0 0 5px;
+      color:#333;
+    }
+    span {
+      font-size: 14px;
+      color:#555;
+    }
+    p {
+      color: #777;
+      margin-top: 10px;
+      padding:0 15px;
+    }
+  }
+  .member-photo {
+    overflow: hidden;
+    position: relative;
+    img {
+      transition: all 0.6s ease 0s;
+    }
+  }
+}
+
+

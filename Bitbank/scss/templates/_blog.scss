@@ -1,0 +1,43 @@
+/*=================================================================
+  Latest Posts
+==================================================================*/
+.post-item {
+  background: $light;
+  margin-bottom: 40px;
+  .post-thumb {
+    margin-right:10px;
+    img {
+      height:auto;
+      width: 100%;
+    }
+  }
+  .post-title {
+    margin-top:20px;
+     h3 {
+      font-size:23px;
+      a {
+        color: #000;
+      }
+    }
+  }
+  .post-meta {
+    font-size:14px;
+    color:#888;
+    a {
+      color:$black;
+      margin:3px 0;
+    }
+  }
+  .post-content {
+    p {
+      color: #757575;
+      margin: 10px 0;
+    }
+  }
+  .btn-main {
+    font-size:12px;
+    margin-top:10px;
+    padding:8px 20px;
+    margin:15px 0;
+  }
+}
