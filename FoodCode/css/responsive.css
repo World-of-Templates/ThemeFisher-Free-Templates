@@ -1,0 +1,144 @@
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+	.navbar-nav>li {
+		display: inline;
+	}
+	#slider-area {
+		margin-top: 20px;
+	}
+	section+section {
+		margin-top: 25px;
+	}
+	#features .block {
+		margin-bottom: 8px;
+	}
+	.block-heading {
+		margin: 30px 0;
+	}
+	.block-heading h2,.products-heading h2 {
+		font-size: 30px;
+	}
+	#back-top {
+		display: none !important;
+	}
+	.products {
+		margin-bottom: 20px;
+	}
+
+
+
+	/*-----------Blog--------------*/
+	#blog .blog-zone > li {
+		margin-bottom: 80px;
+	}
+	#blog .blog-zone > li:last-child {
+		margin-bottom: 0;
+	}
+	#blog .blog-zone {
+		margin-top: 50px;
+	}
+	#topic-header {
+		text-align: center;
+	}
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+
+}
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	
+}
+
+
+
+
+
+
+
+
+
+/* Example Media Queries */
+@media screen and (max-width: 65.375em) {
+ 
+    #blog .blog-zone > li .cbp_tmtime span:last-child {
+        font-size: 1.5em;
+    }
+}
+ 
+@media screen and (max-width: 47.2em) {
+    #blog .blog-zone:before {
+        display: none;
+    }
+ 
+    #blog .blog-zone > li .cbp_tmtime {
+        width: 100%;
+        position: relative;
+        padding: 0 0 20px 0;
+    }
+ 
+    #blog .blog-zone > li .cbp_tmtime span {
+        text-align: left;
+    }
+ 
+    #blog .blog-zone > li .blog-box {
+        margin: 0 0 80px 0;
+        padding: 1em;
+        font-weight: 400;
+        font-size: 95%;
+    }
+ 
+    #blog .blog-zone > li .blog-box:after {
+        right: auto;
+        left: 20px;
+        border-right-color: transparent;
+        border-bottom-color: #3594cb;
+        top: -20px;
+        display: none;
+    }
+ 
+    #blog .blog-zone > li:nth-child(odd) .blog-box:after {
+        display: none;
+    }
+ 
+    #blog .blog-zone > li .blog-icon {
+        position: relative;
+        float: left;
+        left: auto;
+        margin: -55px 5px 0 0px;
+    }
+}

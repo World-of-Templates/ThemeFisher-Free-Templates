@@ -30,3 +30,18 @@ Bitbank | Megakit
 --- | ---
 [![Bitbank](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Bitbank.png)](https://) | [![Megakit](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Megakit.png)](https://)
 Bitcoin Cryptocurrency Template | Multipurpose Bootstrap Template
+
+Food Code | Classimax
+--- | ---
+[![FoodCode](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/FoodCode.png)](https://) | [![Classimax](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Classimax.png)](https://)
+Bootstrap Restaurant Template | Classified Website Template
+
+Aviato | Fiction
+--- | ---
+[![Aviato](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Aviato.png)](https://) | [![Fiction](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Fiction.png)](https://)
+E-Commerce Template | Bootstrap Agency Template
+
+Vex | Bingo
+--- | ---
+[![Vex](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Vex.png)](https://) | [![Bingo](https://raw.githubusercontent.com/World-of-Templates/ThemeFisher-Free-Templates/main/zSupportImages/Bingo.png)](https://)
+Product Landing Page | Business Template (v4)
